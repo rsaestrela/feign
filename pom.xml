@@ -47,6 +47,7 @@
     <module>slf4j</module>
     <module>spring4</module>
     <module>soap</module>
+    <module>soap-jakarta</module>
     <module>reactive</module>
     <module>dropwizard-metrics4</module>
     <module>dropwizard-metrics5</module>
@@ -670,7 +671,7 @@
         </configuration>
         <executions>
           <execution>
-            <phase>validate</phase>
+            <phase>site</phase>
             <goals>
               <goal>format</goal>
             </goals>
